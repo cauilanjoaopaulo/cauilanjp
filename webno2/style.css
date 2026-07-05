@@ -1,0 +1,24 @@
+
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:Poppins,sans-serif;background:#0b0b0b;color:#fff}
+header{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:15px 8%;background:linear-gradient(#e13e03,#000);z-index:10}
+.logo{display:flex;align-items:center;gap:10px}.logo img{width:55px;height:55px;border-radius:50%}
+nav ul{display:flex;list-style:none;gap:20px}nav a{text-decoration:none;color:#fff;padding:8px 16px;border-radius:30px}nav a:hover{background:#ff4500}
+.hero{height:100vh;background:url('assets/fam.jpg') center/cover;display:flex;justify-content:center;align-items:center;position:relative;text-align:center}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,.65)}.hero-content{position:relative;padding:20px}
+.hero h1{font-size:4rem;color:#ff4500}.hero p{font-size:1.2rem}
+section{padding:90px 10%}h2{text-align:center;color:#ff4500;margin-bottom:20px}
+.about,.workout-section,.programs{background:#101010}.about p,.workout-section p{text-align:center;max-width:800px;margin:auto;color:#ccc}
+.team-card,.form-container{max-width:700px;margin:25px auto;background:#181818;padding:25px;border-radius:10px;text-align:center}
+.team-icon{font-size:5rem;color:#ff4500;margin-bottom:15px}
+.team-socials a{color:#ff4500;margin:0 10px;font-size:1.5rem}
+.contact-form input,.contact-form textarea{width:100%;margin:10px 0;padding:14px;background:#222;color:#fff;border:1px solid #444;border-radius:6px}
+.btn{width:100%;padding:14px;background:#ff4500;border:none;color:#fff;border-radius:30px}
+footer{text-align:center;padding:30px;background:#000}
+@media(max-width:768px){
+header{flex-direction:column;padding:10px}
+nav ul{flex-wrap:wrap;justify-content:center}
+.hero h1{font-size:2.3rem}
+section{padding:70px 20px}
+.logo h2{font-size:1.2rem}
+}
